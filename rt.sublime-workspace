@@ -1,0 +1,1293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"win",
+				"win_width"
+			],
+			[
+				"GL_TEXTURE_",
+				"GL_TEXTURE_2D"
+			],
+			[
+				"GL",
+				"GL_TEXTURE_2D"
+			],
+			[
+				"GL_TEXTURE",
+				"GL_TEXTURE_2D"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"grass_",
+				"grass_max"
+			],
+			[
+				"generate_",
+				"generate_moss"
+			],
+			[
+				"w",
+				"w"
+			],
+			[
+				"blit",
+				"blit_surface_thread"
+			],
+			[
+				"current",
+				"current_chunk"
+			],
+			[
+				"SDL",
+				"SDL_BlitSurface"
+			],
+			[
+				"thread",
+				"thread_count"
+			],
+			[
+				"generate",
+				"generate_chunks_around"
+			],
+			[
+				"tmp",
+				"tmp_src"
+			],
+			[
+				"fern",
+				"fern_max"
+			],
+			[
+				"ob",
+				"object"
+			],
+			[
+				"ma",
+				"malloc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 8227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/raytracer/main.c",
+			"settings":
+			{
+				"buffer_size": 1395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/raytracer/ft_ray_caster.c",
+			"settings":
+			{
+				"buffer_size": 1605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/rt.h",
+			"settings":
+			{
+				"buffer_size": 2332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/rt_struct.h",
+			"settings":
+			{
+				"buffer_size": 5094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/parser/ft_get_quadric.c",
+			"settings":
+			{
+				"buffer_size": 1403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/raytracer/ft_new_quadric.c",
+			"settings":
+			{
+				"buffer_size": 1283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/raytracer/ft_quadric.c",
+			"settings":
+			{
+				"buffer_size": 2966,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/raytracer/ft_ray_tracer.c",
+			"settings":
+			{
+				"buffer_size": 2070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/noises/ft_noise_1.c",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ryd/Dropbox/projects/RT/scenes/quadric_show.sc",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/ft_new_cone.c",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/ft_negative_effect.c",
+		"/home/ryd/Dropbox/projects/RT/include/noise.h",
+		"/home/ryd/Dropbox/projects/RT/src/parser/ft_get_tetrahedron.c",
+		"/home/ryd/Dropbox/projects/RT/include/generators.h",
+		"/home/ryd/Dropbox/projects/RT/.m1.sc",
+		"/home/ryd/Dropbox/projects/RT/Makefile",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/ft_ray_tracer.c",
+		"/home/ryd/Dropbox/projects/RT/include/rt_struct.h",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/ft_ray_caster.c",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/ft_rand.c",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/main.c",
+		"/home/ryd/Dropbox/projects/RT/include/rt_protos.h",
+		"/home/ryd/Dropbox/projects/RT/auteur",
+		"/home/ryd/Dropbox/projects/RT/libft/Makefile",
+		"/home/ryd/Dropbox/projects/RT/src/raytracer/ft_apply_noise.c",
+		"/home/ryd/Dropbox/projects/RT/scenes/rtv1.sc",
+		"/home/ryd/Downloads/RT/src/noises/ft_noise_1.c",
+		"/home/ryd/Downloads/RT/src/noises/ft_noise_12.c",
+		"/home/ryd/Downloads/RT/src/noises/ft_noise_11.c",
+		"/home/ryd/Downloads/RT/src/noises/ft_noise_10.c",
+		"/home/ryd/Downloads/minilibx/=README=",
+		"/home/ryd/Downloads/minilibx/test/new_win.c",
+		"/home/ryd/Downloads/minilibx/test/main.c",
+		"/home/ryd/Downloads/RT/src/raytracer/ft_run_thread.c",
+		"/home/ryd/Downloads/RT/rt",
+		"/home/ryd/Downloads/RT/minilibx/test/main.c",
+		"/home/ryd/Downloads/RT/src/parser/ft_get_spot.c",
+		"/home/ryd/Downloads/RT/src/parser/ft_get_triangle.c",
+		"/home/ryd/Downloads/RT/src/parser/ft_get_valid_files.c",
+		"/home/ryd/Downloads/RT/src/parser/ft_get_next_number.c",
+		"/home/ryd/Downloads/RT/src/generators/ft_generate_curve.c",
+		"/home/ryd/Downloads/RT/scenes/lilicube.sc",
+		"/home/ryd/Downloads/RT/src/raytracer/ft_ray_tracer.c",
+		"/home/ryd/Downloads/RT/src/raytracer/main.c",
+		"/home/ryd/Downloads/RT/Makefile",
+		"/home/ryd/Dropbox/projects/project_04/src/f_dist_if.c",
+		"/home/ryd/Dropbox/projects/project_04/src/f_dist_ff.c",
+		"/home/ryd/Dropbox/projects/project_03/src/main.c",
+		"/home/ryd/Dropbox/projects/project_02/include/project_protos.h",
+		"/home/ryd/Dropbox/projects/project_02/include/project_struct.h",
+		"/home/ryd/Dropbox/projects/project_02/include/project.h",
+		"/home/ryd/Dropbox/projects/project_04/src/list_push_back.c",
+		"/home/ryd/Dropbox/projects/project_04/src/list_free_elem.c",
+		"/home/ryd/Dropbox/projects/project_04/src/list_del_elem.c",
+		"/home/ryd/Dropbox/projects/project_04/src/list_create.c",
+		"/home/ryd/Dropbox/projects/project_04/src/load_png_file.c",
+		"/home/ryd/Dropbox/projects/project_04/include/project.h",
+		"/home/ryd/Dropbox/projects/project_03/main_save_1.c",
+		"/home/ryd/Dropbox/projects/project_03/main_save_2.c",
+		"/home/ryd/Dropbox/projects/project_03/main_save_3.c",
+		"/home/ryd/Dropbox/projects/project_03/src/norm_vec.c",
+		"/home/ryd/Dropbox/projects/project_03/main_save.c",
+		"/home/ryd/Dropbox/projects/project_03/Makefile",
+		"/home/ryd/Dropbox/projects/project_03/include/project.h",
+		"/home/ryd/Dropbox/projects/project_02/src/list_del_elem.c",
+		"/home/ryd/Dropbox/projects/project_02/src/load_cursor.c",
+		"/home/ryd/Dropbox/projects/project/version_1.0.2/src/draw_chunks.c",
+		"/home/ryd/Dropbox/projects/project_02/src/is_digit.c",
+		"/home/ryd/Dropbox/projects/project_02/src/update_camera.c",
+		"/home/ryd/Dropbox/projects/project_02/src/update_cursor.c",
+		"/home/ryd/Dropbox/projects/project_02/src/set_camera.c",
+		"/home/ryd/Dropbox/projects/project_02/src/list_tests.c",
+		"/home/ryd/Dropbox/projects/project_02/src/draw_cursor.c",
+		"/home/ryd/Dropbox/projects/project_02/src/set_world.c",
+		"/home/ryd/Dropbox/projects/project_02/src/draw_render.c",
+		"/home/ryd/Dropbox/projects/project/version_1.0.2/include/project.h",
+		"/home/ryd/Dropbox/projects/project_02/src/update_all.c",
+		"/home/ryd/Dropbox/projects/project_02/src/set_data.c",
+		"/home/ryd/Dropbox/projects/project_02/Makefile",
+		"/home/ryd/Dropbox/projects/project/version_1.0.2/src/print_list_types.c",
+		"/home/ryd/Dropbox/projects/project/version_1.0.2/src/parse_config_file.c",
+		"/home/ryd/Downloads/atomic_operations/48_atomic_operations/48_atomic_operations.cpp",
+		"/home/ryd/Dropbox/projects/project/version_1.0.2/src/set_data.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/print_list_types.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/print_object_links.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/list_tests.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/parse_opare.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/parse_oname.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/parse_ohitb.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/parse_ochil.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/parse_oanim.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/link_objects.c",
+		"/home/ryd/launchnexus.sh",
+		"/home/ryd/launchd3.sh",
+		"/home/ryd/Dropbox/projects/project/project-02/src/get_next_number.c",
+		"/home/ryd/Dropbox/projects/rt_ubuntu/RT/src/raytracer/ft_ray_caster.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/chunk_exists.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/get_file_coordinates.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/load_graphics.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/load_objects_images.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/list_push_back.c",
+		"/home/ryd/Dropbox/projects/rt_ubuntu/RT/src/raytracer/ft_main_loop.c",
+		"/home/ryd/Dropbox/projects/project/project-02/objects.conf",
+		"/home/ryd/Dropbox/projects/project/project-02/src/blit_thread.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/list_create.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/parse_config_file.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/get_status.c",
+		"/home/ryd/Dropbox/projects/project/project-02/project-02.sublime-project",
+		"/home/ryd/Dropbox/projects/project/project-02/src/strjoin.c",
+		"/home/ryd/Dropbox/projects/project/project-02/Makefile",
+		"/home/ryd/Dropbox/projects/project/project-02/src/update_cursor.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/generate_chunk.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/itoa.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/add_vec.c",
+		"/home/ryd/Dropbox/projects/project/project-02/project",
+		"/home/ryd/Dropbox/projects/project/project-01/src/update_camera.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/update_camera.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/create_chunk.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/set_camera.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/set_env.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/create_elem.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/call_parsing_func.c",
+		"/home/ryd/Dropbox/projects/project/project-01/src/generate_new_map.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/update_chunks.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/allocate_chunk_layers.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/load_chunk.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/save_chunk.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/set_world.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/perlin_noise.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/list_free_elem.c",
+		"/home/ryd/Dropbox/projects/project/project-01/src/main.c",
+		"/home/ryd/Dropbox/projects/project/project-02/src/main.c",
+		"/home/ryd/Dropbox/projects/project-01/project.sublime-project",
+		"/home/ryd/Dropbox/projects/project-01/src/perlin_noise.c",
+		"/home/ryd/Dropbox/projects/project-01/src/generate_ferns.c",
+		"/home/ryd/Dropbox/projects/project-01/src/generate_map_chunks.c"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"();\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7003,
+								7003
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4045.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/raytracer/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1263,
+								1263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/raytracer/ft_ray_caster.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1083,
+								1083
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "include/rt.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1475,
+								1475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "include/rt_struct.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1626,
+								1626
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/raytracer/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/parser/ft_get_quadric.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/raytracer/ft_new_quadric.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/raytracer/ft_quadric.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1734,
+								1734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "src/raytracer/ft_ray_tracer.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1903,
+								1903
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/noises/ft_noise_1.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "rt.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mak",
+				"Makefile"
+			],
+			[
+				"quadric",
+				"src/raytracer/ft_quadric.c"
+			],
+			[
+				"newquadri",
+				"src/raytracer/ft_new_quadric.c"
+			],
+			[
+				"getquadr",
+				"src/parser/ft_get_quadric.c"
+			],
+			[
+				"ray",
+				"src/raytracer/ft_ray_caster.c"
+			],
+			[
+				"main",
+				"src/raytracer/main.c"
+			],
+			[
+				"rayt",
+				"src/raytracer/ft_ray_tracer.c"
+			],
+			[
+				"rt",
+				"include/rt_struct.h"
+			],
+			[
+				"au",
+				"auteur"
+			],
+			[
+				"ma",
+				"Makefile"
+			],
+			[
+				"",
+				"include/rt_struct.h"
+			],
+			[
+				"rth",
+				"include/rt.h"
+			],
+			[
+				"mai",
+				"src/raytracer/main.c"
+			],
+			[
+				"m",
+				"Makefile"
+			],
+			[
+				"mal",
+				"src/main_loop.c"
+			],
+			[
+				"ph",
+				"include/project.h"
+			],
+			[
+				"sd",
+				"src/set_data.c"
+			],
+			[
+				"mailo",
+				"src/main_loop.c"
+			],
+			[
+				"ren",
+				"src/render.c"
+			],
+			[
+				"glen",
+				"src/glEnable2D.c"
+			],
+			[
+				"sw",
+				"src/set_wizard.c"
+			],
+			[
+				"mc",
+				"src/main.c"
+			],
+			[
+				"p",
+				"include/project.h"
+			],
+			[
+				"ge",
+				"src/glEnable2D.c"
+			],
+			[
+				"gldi",
+				"src/glDisable2D.c"
+			],
+			[
+				"masa",
+				"main_save_1.c"
+			],
+			[
+				"maisa",
+				"main_save_2.c"
+			],
+			[
+				"norm",
+				"src/norm_vec.c"
+			],
+			[
+				"up",
+				"update_cursor.c"
+			],
+			[
+				"lpf",
+				"src/load_png_file.c"
+			],
+			[
+				"st",
+				"include/project_struct.h"
+			],
+			[
+				"oo",
+				"include/project_protos.h"
+			],
+			[
+				"stu",
+				"include/project_struct.h"
+			],
+			[
+				"ps",
+				"include/project_struct.h"
+			],
+			[
+				"dre",
+				"src/draw_render.c"
+			],
+			[
+				"dr",
+				"src/draw_render.c"
+			],
+			[
+				"drre",
+				"src/draw_render.c"
+			],
+			[
+				"lo",
+				"src/load_png_file.c"
+			],
+			[
+				"lola",
+				"src/load_png_file.c"
+			],
+			[
+				"ll",
+				"src/list_del_elem.c"
+			],
+			[
+				"upcu",
+				"src/update_cursor.c"
+			],
+			[
+				"locu",
+				"src/load_cursor.c"
+			],
+			[
+				"scu",
+				"src/set_cursor.c"
+			],
+			[
+				"loadcu",
+				"src/load_cursor.c"
+			],
+			[
+				"loadu",
+				"src/load_cursor.c"
+			],
+			[
+				"sc",
+				"src/set_camera.c"
+			],
+			[
+				"mailoo",
+				"src/main_loop.c"
+			],
+			[
+				"updac",
+				"src/update_cursor.c"
+			],
+			[
+				"upda",
+				"src/update_all.c"
+			],
+			[
+				"upca",
+				"src/update_camera.c"
+			],
+			[
+				"seca",
+				"src/set_camera.c"
+			],
+			[
+				"drawr",
+				"src/draw_render.c"
+			],
+			[
+				"mlo",
+				"src/main_loop.c"
+			],
+			[
+				"drr",
+				"src/draw_render.c"
+			],
+			[
+				"d",
+				"~/Dropbox/projects/project/version_1.0.2/src/draw_chunks.c"
+			],
+			[
+				"drawcu",
+				"src/draw_cursor.c"
+			],
+			[
+				"draw",
+				"src/draw_render.c"
+			],
+			[
+				"updacu",
+				"src/update_cursor.c"
+			],
+			[
+				"mainloo",
+				"src/main_loop.c"
+			],
+			[
+				"sca",
+				"src/set_camera.c"
+			],
+			[
+				"sen",
+				"src/set_env.c"
+			],
+			[
+				"se",
+				"src/set_data.c"
+			],
+			[
+				"listt",
+				"src/list_tests.c"
+			],
+			[
+				"creel",
+				"src/create_elem.c"
+			],
+			[
+				"lfe",
+				"src/list_free_elem.c"
+			],
+			[
+				"loacu",
+				"src/load_cursor.c"
+			],
+			[
+				"secu",
+				"src/set_cursor.c"
+			],
+			[
+				"setw",
+				"src/set_world.c"
+			],
+			[
+				"drawre",
+				"src/draw_render.c"
+			],
+			[
+				"updc",
+				"src/update_camera.c"
+			],
+			[
+				"pd",
+				"src/update_all.c"
+			],
+			[
+				"sed",
+				"src/set_data.c"
+			],
+			[
+				"updaall",
+				"src/update_all.c"
+			],
+			[
+				"pp",
+				"include/project_protos.h"
+			],
+			[
+				"lc",
+				"src/load_chunk.c"
+			],
+			[
+				"gc",
+				"src/generate_chunk.c"
+			],
+			[
+				"ooo",
+				"include/project_protos.h"
+			],
+			[
+				"hp",
+				"src/get_chunk_path.c"
+			],
+			[
+				"perli",
+				"src/perlin_noise.c"
+			],
+			[
+				"loadl",
+				"src/load_layers.c"
+			],
+			[
+				"loadlay",
+				"src/load_layers.c"
+			],
+			[
+				"dc",
+				"src/draw_chunks.c"
+			],
+			[
+				"loal",
+				"src/load_layers.c"
+			],
+			[
+				"loadpn",
+				"src/load_png_file.c"
+			],
+			[
+				"loadla",
+				"src/load_layers.c"
+			],
+			[
+				"lapnf",
+				"src/load_png_file.c"
+			],
+			[
+				"loapng",
+				"src/load_png_file.c"
+			],
+			[
+				"loadpngf",
+				"src/load_png_file.c"
+			],
+			[
+				"loadpng",
+				"src/load_png_file.c"
+			],
+			[
+				"loadlayer",
+				"src/load_layers.c"
+			],
+			[
+				"loadp",
+				"src/load_png_file.c"
+			],
+			[
+				"loapn",
+				"src/load_png_file.c"
+			],
+			[
+				"loa",
+				"src/load_chunk.c"
+			],
+			[
+				"perl",
+				"src/perlin_noise.c"
+			],
+			[
+				"prln",
+				"src/perlin_noise.c"
+			],
+			[
+				"ga",
+				"src/generate_chunks_around.c"
+			],
+			[
+				"upc",
+				"src/update_chunks.c"
+			],
+			[
+				"gna",
+				"src/generate_chunks_around.c"
+			],
+			[
+				"listfr",
+				"src/list_free_elem.c"
+			],
+			[
+				"lisdelele",
+				"src/list_del_elem.c"
+			],
+			[
+				"loado",
+				"src/load_objects_images.c"
+			],
+			[
+				"pacofi",
+				"src/parse_config_file.c"
+			],
+			[
+				"gst",
+				"src/get_status.c"
+			],
+			[
+				"par",
+				"src/parse_config_file.c"
+			],
+			[
+				"loadpf",
+				"src/load_png_file.c"
+			],
+			[
+				"load",
+				"src/load_chunk.c"
+			],
+			[
+				"loadoi",
+				"src/load_objects_images.c"
+			],
+			[
+				"loapg",
+				"src/load_png_file.c"
+			],
+			[
+				"curo",
+				"src/draw_cursor.c"
+			],
+			[
+				"sdt",
+				"src/set_data.c"
+			],
+			[
+				"lolay",
+				"src/load_layers.c"
+			],
+			[
+				"loadg",
+				"src/load_graphics.c"
+			],
+			[
+				"log",
+				"src/load_graphics.c"
+			],
+			[
+				"pcf",
+				"src/parse_config_file.c"
+			],
+			[
+				"looi",
+				"src/load_objects_images.c"
+			],
+			[
+				"loadobi",
+				"src/load_objects_images.c"
+			],
+			[
+				"lopn",
+				"src/load_png_file.c"
+			],
+			[
+				"listdel",
+				"src/list_del_elem.c"
+			],
+			[
+				"upch",
+				"src/update_chunks.c"
+			],
+			[
+				"bsl",
+				"src/blit_surface_list_thread.c"
+			],
+			[
+				"lch",
+				"src/load_chunk.c"
+			],
+			[
+				"g",
+				"src/generate_chunk.c"
+			],
+			[
+				"gca",
+				"src/generate_chunks_around.c"
+			],
+			[
+				"gch",
+				"src/generate_chunk.c"
+			],
+			[
+				"dch",
+				"src/draw_chunks.c"
+			],
+			[
+				"blitsur",
+				"src/blit_surface_list_thread.c"
+			],
+			[
+				"bst",
+				"src/blit_surface_thread.c"
+			],
+			[
+				"std",
+				"src/set_data.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,34 @@
+NOTABLE FEATURES :
+
+tetrahedron
+triangle
+disc
+quadrics
+finished plane
+noise
+noise seed
+procedural texture
+		- wood
+		- lava
+		- marble
+		- ...
+interactive mode (-i)
+sphere field generator (-g2)
+material grid generator (-g1)
+curve generator
+ambiant light
+parser
+reflection
+transparence
+cube
+half-sphere
+effects
+	- sepia
+	- negative
+multi-thread
+lots of optimisations
+mini-render images
+buttons
+mouse clic
+grid
+camera recording (R)

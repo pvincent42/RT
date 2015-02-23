@@ -1,0 +1,9 @@
+MADE BY RYD
+
+SCENE { c 0 0 0 seed 425 }
+CAMERA { p 960 540 0 n 0 0 100 u 0 1 0 }
+BACKGROUND { 0 0 0 }
+
+SPOT { xyz -10000 -10000 -10000 c 25555 25555 25555 }
+
+SPHERE { p 960 540 2900 n 0 0 1 r 700 c 205 97 34 ads 40 90 100 b 15 noise 7 color 2 1 1 1200 15 }

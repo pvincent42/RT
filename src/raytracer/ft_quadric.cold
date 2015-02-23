@@ -1,0 +1,79 @@
+
+#include <rt.h>
+#include <math.h>
+#include <stdio.h>
+
+void			ft_get_norm_vec(t_tdata *td, t_object *o, t_cd hp)
+{
+	td->nhp.x = 2 * o->q1.x * hp.x + o->q2.x * hp.y + o->q2.y * hp.z + o->q3.x;
+	td->nhp.y = 2 * o->q1.y * hp.y + o->q2.x * hp.x + o->q2.z * hp.z + o->q3.y;
+	td->nhp.z = 2 * o->q1.z * hp.z + o->q2.y * hp.x + o->q2.z * hp.y + o->q3.z;
+	ft_get_n_vector(td->nhp, &td->nhp, 0);
+}
+
+double				ft_quadric(t_tdata *td, t_object *o, t_cd *ray, t_cd hp)
+{
+	t_cd		v1;
+	t_cd		v2;
+	t_cd		v3;
+	t_cd		v4;
+	t_cd		v5;
+	t_cd		v6;
+	t_cd		v7;
+	t_cd		v8;
+	double		a;
+	double		b;
+	double		c;
+	double		tmp;
+	double		dist1;
+	double		dist2;
+
+	(void)td;
+	v1.x = ray->x * ray->x * o->n.x * o->n.x;
+	v1.y = ray->y * ray->y * o->n.y * o->n.y;
+	v1.z = ray->z * ray->z * o->n.z * o->n.z;
+	v2.x = 2 * ray->x * ray->y * o->n.x * o->n.y;
+	v2.y = 2 * ray->y * ray->z * o->n.y * o->n.z;
+	v2.z = 2 * ray->x * ray->z * o->n.x * o->n.z;
+	v3.x = 2 * (hp.x - o->p.x) * ray->x * o->n.x * o->n.x;
+	v3.y = 2 * (hp.y - o->p.y) * ray->y * o->n.y * o->n.y;
+	v3.z = 2 * (hp.z - o->p.z) * ray->z * o->n.z * o->n.z;
+	v4.x = 2 * (ray->x * (hp.y - o->p.y) + (hp.x - o->p.x) * ray->y) * o->n.x * o->n.y;
+	v4.y = 2 * (ray->y * (hp.z - o->p.z) + (hp.y - o->p.y) * ray->z) * o->n.y * o->n.z;
+	v4.z = 2 * (ray->x * (hp.z - o->p.z) + (hp.x - o->p.x) * ray->z) * o->n.x * o->n.z;
+	v5.x = 2 * ray->x * o->n.x;
+	v5.y = 2 * ray->y * o->n.y;
+	v5.z = 2 * ray->z * o->n.z;
+	v6.x = (hp.x - o->p.x) * (hp.x - o->p.x) * o->n.x * o->n.x;
+	v6.y = (hp.y - o->p.y) * (hp.y - o->p.y) * o->n.y * o->n.y;
+	v6.z = (hp.z - o->p.z) * (hp.z - o->p.z) * o->n.z * o->n.z;
+	v7.x = 2 * (hp.x - o->p.x) * (hp.y - o->p.y) * o->n.x * o->n.y;
+	v7.y = 2 * (hp.y - o->p.y) * (hp.z - o->p.z) * o->n.y * o->n.z;
+	v7.z = 2 * (hp.x - o->p.x) * (hp.z - o->p.z) * o->n.x * o->n.z;
+	v8.x = 2 * (hp.x - o->p.x) * o->n.x;
+	v8.y = 2 * (hp.y - o->p.y) * o->n.y;
+	v8.z = 2 * (hp.z - o->p.z) * o->n.z;
+	a = ft_dot_vec(o->q1, v1) + ft_dot_vec(o->q2, v2);
+	b = ft_dot_vec(o->q1, v3) + ft_dot_vec(o->q2, v4) + ft_dot_vec(o->q3, v5);
+	c = ft_dot_vec(o->q1, v6) + ft_dot_vec(o->q2, v7) + ft_dot_vec(o->q3, v8) + o->r;
+	tmp = b * b - (4 * a * c);
+//	printf("a = %f, b = %f, c = %f\n", a, b, c);
+	if (tmp < 0.0)
+		return (-1);
+	b = -b;
+	tmp = sqrt(tmp);
+	a += a;
+	dist1 = (b + tmp) / a;
+	dist2 = (b - tmp) / a;
+	if (dist1 <= dist2 && dist1 > 0.0)
+	{
+//		ft_get_norm_vec(td, o, ft_get_hitpoint(hp, dist1, ray));
+		return (dist1);
+	}
+	if (dist1 > dist2 && dist2 > 0.0)
+	{
+//		ft_get_norm_vec(td, o, ft_get_hitpoint(hp, dist2, ray));
+		return (dist2);
+	}
+	return (-1);
+}
